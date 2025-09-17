@@ -1,0 +1,37 @@
+.transactions-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .filters {
+    margin-bottom: 15px;
+  }
+  
+  .filters select {
+    padding: 6px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background: #f0f0f0;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .credit {
+    color: green;
+  }
+  
+  .debit {
+    color: red;
+  }
+  

@@ -1,0 +1,31 @@
+<div class="animated-bg"></div>
+
+<div class="form-container">
+  <mat-card class="register-card">
+    <h2>Log-In</h2>
+    <form [formGroup]="formvalue" >
+     
+      
+      <mat-form-field appearance="outline" class="full-width">
+        <mat-label>UserName</mat-label>
+        <input matInput type="email" formControlName="username" placeholder="Enter your email" />
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Email</mat-label>
+        <input matInput type="email" formControlName="email" placeholder="Enter your email" />
+      </mat-form-field>
+
+     
+
+      <div class="button-row">
+        <button mat-raised-button color="primary" type="submit" (click)="Login()" class="btn">Login</button>
+        
+      </div>
+      <div>
+        If Don't have Account
+        <a routerLink="/register"> Sing-Up</a>
+      </div>
+    </form>
+  </mat-card>
+</div>

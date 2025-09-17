@@ -1,0 +1,25 @@
+<div class="send-money-container">
+    <h2>Send Money</h2>
+  
+    <form [formGroup]="formvalue">
+  
+      <!-- Recipient -->
+      <label for="Receiver">Enter your Details/UserId</label>
+      <input type="number" formControlName="ReceiverId">
+  
+      <!-- Amount -->
+      <label for="Amount">Amount</label>
+      <input type="number" formControlName="Amount">
+  
+      <!-- Optional Note -->
+     
+  
+      <!-- Buttons -->
+      <div class="btn-group">
+        <button type="submit" (click)="sendmoney()">Send</button>
+        <button type="button" routerLink="/dashboard">Cancel</button>
+      </div>
+  
+    </form>
+  </div>
+  

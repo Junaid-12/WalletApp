@@ -1,0 +1,17 @@
+<div class="add-money-container">
+    <h2>Add Money to Wallet</h2>
+  
+    <form [formGroup]="formvalue">
+  
+      <!-- Amount -->
+      <label for="amount">Amount</label>
+      <input type="text "  formControlName="Balance" >
+      <!-- Buttons -->
+      <div class="btn-group">
+        <button type="submit" (click)="AddMoney()">Add Money</button>
+        <button type="button" routerLink="/dashboard">Cancel</button>
+      </div>
+  
+    </form>
+  </div>
+  

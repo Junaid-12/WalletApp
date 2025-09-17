@@ -1,0 +1,73 @@
+<!-- user-card.component.html -->
+<div *ngIf="Profiledata" class="card     shadow-lg p-3 mb-5 bg-white rounded" style="max-width: 400px;">
+    <div  class="d-flex align-items-center">
+      <img [src]="'https://localhost:7233/uploads/'+Profiledata.image" class="rounded-circle" alt="User Image" width="150" height="150">
+     
+    </div>
+    <div  class="card-body">
+     
+        <h3 class="card-title">Personal Details </h3>
+        
+    
+        <h2 class="card-text">Name : {{Profiledata.name}}</h2> 
+        <h2 class="card-text">PhoneNo : {{Profiledata.phoneNo}}</h2> 
+      <h2 class="card-text"> Address: {{Profiledata.address}} </h2>   
+    </div>  
+<div> 
+  <button class="btn btn-primary" (click)="OnEdit(Profiledata)" data-bs-toggle="modal" data-bs-target="#exampleModal" >Edit</button>
+  <button class="btn btn-danger m-2" [routerLink]="['/dashboard']">Cancel</button>
+</div>
+  </div>
+
+  <!-- add-user.component.html -->
+ 
+  
+ 
+    
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Personal's Details</h1>
+        
+          </div>
+          <div class="modal-body">
+            <form [formGroup]="formvalue"   style="max-width: 500px; margin: auto;" >
+              <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" formControlName="name">
+              </div>
+            
+              <div class="mb-3">
+                <label class="form-label">Phone</label>
+                <input type="text" class="form-control" formControlName="PhoneNo" >
+              </div>
+            
+              <div class="mb-3">
+                <label class="form-label">Address</label>
+                <textarea class="form-control" formControlName="address" ></textarea>
+              </div>
+            
+              <div class="mb-3">
+                <label class="form-label">Profile Image</label>
+                <input type="file" class="form-control" (change)="SelectImage($event)">
+              </div>
+             
+              
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" (click)="onCancel()">Close</button>
+            <button type="submit" class="btn btn-primary " (click)="UploadData()">Save Changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+
+
+
+
+  

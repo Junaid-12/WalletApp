@@ -1,0 +1,18 @@
+<div class="dashboard-container">
+  
+    <div class="nav" > <h2>Welcome, {{ Name }}</h2></div>
+    <div class="mt-1 mb-2" >
+    <button    class="btn btn-danger" (click)="logout()">LogOut</button>
+   </div>
+  
+    <div class="wallet-balance">
+      <h3>Wallet Balance</h3>
+      <p class="balance">₹ {{ walleteBalnace }}</p>
+    </div>
+    <div class="quick-actions">
+        <button routerLink="/add-balance" class="btn btn-success">Add Money</button>
+        <button routerLink="/send-money" class="btn btn-primary">Send Money</button>
+        <button routerLink="/transactions" class="btn btn-info">View Transactions</button>
+        <button routerLink="/profile" class="btn btn-dark">Profile</button>
+    </div>  
+   

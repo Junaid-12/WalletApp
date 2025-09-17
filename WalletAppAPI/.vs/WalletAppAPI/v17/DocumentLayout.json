@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WalletApp\\WalletAppAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E1E867C-C70D-42BA-B7F5-FE20C4BF49EB}|WalletAppAPI.csproj|d:\\walletapp\\walletappapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E1E867C-C70D-42BA-B7F5-FE20C4BF49EB}|WalletAppAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E1E867C-C70D-42BA-B7F5-FE20C4BF49EB}|WalletAppAPI.csproj|d:\\walletapp\\walletappapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E1E867C-C70D-42BA-B7F5-FE20C4BF49EB}|WalletAppAPI.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E1E867C-C70D-42BA-B7F5-FE20C4BF49EB}|WalletAppAPI.csproj|d:\\walletapp\\walletappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E1E867C-C70D-42BA-B7F5-FE20C4BF49EB}|WalletAppAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E1E867C-C70D-42BA-B7F5-FE20C4BF49EB}|WalletAppAPI.csproj|d:\\walletapp\\walletappapi\\repository\\transecationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E1E867C-C70D-42BA-B7F5-FE20C4BF49EB}|WalletAppAPI.csproj|solutionrelative:repository\\transecationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E1E867C-C70D-42BA-B7F5-FE20C4BF49EB}|WalletAppAPI.csproj|d:\\walletapp\\walletappapi\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E1E867C-C70D-42BA-B7F5-FE20C4BF49EB}|WalletAppAPI.csproj|solutionrelative:controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E1E867C-C70D-42BA-B7F5-FE20C4BF49EB}|WalletAppAPI.csproj|d:\\walletapp\\walletappapi\\model\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E1E867C-C70D-42BA-B7F5-FE20C4BF49EB}|WalletAppAPI.csproj|solutionrelative:model\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E1E867C-C70D-42BA-B7F5-FE20C4BF49EB}|WalletAppAPI.csproj|d:\\walletapp\\walletappapi\\repository\\profilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E1E867C-C70D-42BA-B7F5-FE20C4BF49EB}|WalletAppAPI.csproj|solutionrelative:repository\\profilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E1E867C-C70D-42BA-B7F5-FE20C4BF49EB}|WalletAppAPI.csproj|d:\\walletapp\\walletappapi\\repository\\iprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E1E867C-C70D-42BA-B7F5-FE20C4BF49EB}|WalletAppAPI.csproj|solutionrelative:repository\\iprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E1E867C-C70D-42BA-B7F5-FE20C4BF49EB}|WalletAppAPI.csproj|d:\\walletapp\\walletappapi\\repository\\walletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E1E867C-C70D-42BA-B7F5-FE20C4BF49EB}|WalletAppAPI.csproj|solutionrelative:repository\\walletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E1E867C-C70D-42BA-B7F5-FE20C4BF49EB}|WalletAppAPI.csproj|d:\\walletapp\\walletappapi\\model\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E1E867C-C70D-42BA-B7F5-FE20C4BF49EB}|WalletAppAPI.csproj|solutionrelative:model\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WalletApp\\WalletAppAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\WalletApp\\WalletAppAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABgAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-17T12:37:14.44Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\WalletApp\\WalletAppAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\WalletApp\\WalletAppAPI\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-17T12:37:06.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TransecationRepository.cs",
+              "DocumentMoniker": "D:\\WalletApp\\WalletAppAPI\\Repository\\TransecationRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\TransecationRepository.cs",
+              "ToolTip": "D:\\WalletApp\\WalletAppAPI\\Repository\\TransecationRepository.cs",
+              "RelativeToolTip": "Repository\\TransecationRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T06:39:56.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WalletRepository.cs",
+              "DocumentMoniker": "D:\\WalletApp\\WalletAppAPI\\Repository\\WalletRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\WalletRepository.cs",
+              "ToolTip": "D:\\WalletApp\\WalletAppAPI\\Repository\\WalletRepository.cs",
+              "RelativeToolTip": "Repository\\WalletRepository.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAIwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T11:34:04.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "D:\\WalletApp\\WalletAppAPI\\Model\\Transaction.cs",
+              "RelativeDocumentMoniker": "Model\\Transaction.cs",
+              "ToolTip": "D:\\WalletApp\\WalletAppAPI\\Model\\Transaction.cs",
+              "RelativeToolTip": "Model\\Transaction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T11:27:59.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IProfileRepository.cs",
+              "DocumentMoniker": "D:\\WalletApp\\WalletAppAPI\\Repository\\IProfileRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IProfileRepository.cs",
+              "ToolTip": "D:\\WalletApp\\WalletAppAPI\\Repository\\IProfileRepository.cs",
+              "RelativeToolTip": "Repository\\IProfileRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T10:10:37.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProfileRepository.cs",
+              "DocumentMoniker": "D:\\WalletApp\\WalletAppAPI\\Repository\\ProfileRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ProfileRepository.cs",
+              "ToolTip": "D:\\WalletApp\\WalletAppAPI\\Repository\\ProfileRepository.cs",
+              "RelativeToolTip": "Repository\\ProfileRepository.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAA6wC4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T09:38:11.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "D:\\WalletApp\\WalletAppAPI\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
+              "ToolTip": "D:\\WalletApp\\WalletAppAPI\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Controllers\\ProfileController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAmwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T09:19:01.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "D:\\WalletApp\\WalletAppAPI\\Model\\Profile.cs",
+              "RelativeDocumentMoniker": "Model\\Profile.cs",
+              "ToolTip": "D:\\WalletApp\\WalletAppAPI\\Model\\Profile.cs",
+              "RelativeToolTip": "Model\\Profile.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T09:28:14.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WalletApp\\WalletAppAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\WalletApp\\WalletAppAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T09:17:32.848Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
