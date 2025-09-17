@@ -17,6 +17,6 @@ It enables users to manage funds, transfer money, and track transactions safely.
 - **Backend:** ASP.NET Core Web API (ADO.NET + Repository Pattern)
 - **Database:** MSSQL
 - **Frontend:** Angular
-- **Other Tools:** Toastr Notifications, Rotativa.AspNetCore 
+
 
 
