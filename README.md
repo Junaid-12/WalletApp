@@ -1,11 +1,11 @@
-# WalletApp
+ WalletApp
 Description: “A full-stack digital wallet application built with ASP.NET Core, MSSQL, and Angular.”
-# 💳 WalletApp - Full Stack Digital Wallet Application
+ 💳 WalletApp - Full Stack Digital Wallet Application
 
-🚀 A secure digital wallet application built with **ASP.NET Core Web API**, **Angular**, and **MSSQL**.  
+ A secure digital wallet application built with **ASP.NET Core Web API**, **Angular**, and **MSSQL**.  
 It enables users to manage funds, transfer money, and track transactions safely.  
 
-## 🔑 Features
+ 🔑 Features
 - 🔐 JWT Authentication (Login & Registration)
 - 💳 Add money and view wallet balance
 - 🔄 Peer-to-Peer transfers with rollback safety
@@ -13,10 +13,10 @@ It enables users to manage funds, transfer money, and track transactions safely.
 - 📁 Profile management with image upload
 - 📧 Email notifications (SMTP integration)
 
-## ⚙️ Tech Stack
+  Tech Stack
 - **Backend:** ASP.NET Core Web API (ADO.NET + Repository Pattern)
 - **Database:** MSSQL
 - **Frontend:** Angular
 - **Other Tools:** Toastr Notifications, Rotativa.AspNetCore (PDF Reports)
 
-## 📂 Project Structure
+
