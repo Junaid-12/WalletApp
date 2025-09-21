@@ -18,7 +18,7 @@ namespace WalletAppAPI.Controllers
             _walletRepo = walletRepo;
             _emailNotify = emailNotify;
         }
-        [HttpPost("Addbalance")]
+        [HttpPost("AddBalance")]
         public async Task<IActionResult> AddBalance([FromBody] Wallet obj)
         {
             try
@@ -40,7 +40,7 @@ namespace WalletAppAPI.Controllers
             }
         }
 
-        [HttpGet("balance/{userId}")]
+        [HttpGet("Balance/{userId}")]
         public async Task<IActionResult> GetBalance(int userId)
         {
             var result = await _walletRepo.GetWalletBalanceAsync(userId);

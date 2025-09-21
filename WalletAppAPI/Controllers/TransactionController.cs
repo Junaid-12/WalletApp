@@ -8,12 +8,12 @@ namespace WalletAppAPI.Controllers
     [Authorize]
     [Route("api/[controller]")]
     [ApiController]
-    public class TransecationController : ControllerBase
+    public class TransactionController : ControllerBase
     {
         private readonly ITransecationRepository _transactionRepo;
         private readonly EmailNotificationRepository _emailNotify;
 
-        public TransecationController(ITransecationRepository transactionRepo, EmailNotificationRepository emailNotify)
+        public TransactionController(ITransecationRepository transactionRepo, EmailNotificationRepository emailNotify)
         {
             _transactionRepo = transactionRepo;
             _emailNotify = emailNotify;
@@ -31,7 +31,7 @@ namespace WalletAppAPI.Controllers
             return Ok(new { message=" Transaction Sucessfully"});
         }
       
-        [HttpGet("Usertransactions/{userId}")]
+        [HttpGet("UserTransactions/{userId}")]
         public async Task<IActionResult> GetUserTransactions(int userId)
         {
             var result = await _transactionRepo.GetUserTransactionsAsync(userId);
